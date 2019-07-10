@@ -14,6 +14,7 @@ int main(void){
   printf("Rolling the dice...\n");
   printf("Dice1: %d\n",n1);
   printf("Dice2: %d\n",n2);
-  printf("Total value: %d\n",n1+n2);
+  if(n1+n2>7) printf("You won\n");
+  else printf("You lost\n");
   return 0;
 }
